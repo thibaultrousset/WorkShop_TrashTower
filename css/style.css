@@ -9,9 +9,13 @@ header{
     margin-top: 0;
     padding-top: 0; 
     width: 100%;
-    height: 3em;
+    height: 5em;
 }
-
+footer{
+    background-color: rgb(115, 77, 40);
+    padding: 2%;
+    text-align: center;
+}
 #home{
     background-image: url(/home/rousset/Bureau/WorkShop_TrashTower/WorkShop_TrashTower/images/montagne_déchet.jpg);
     height: 680px;
@@ -32,7 +36,7 @@ h1{
 }
 
 
-h3{
+h3, h2{
     color: rgb(115, 77, 40) !important;
     text-align: center;
 }
@@ -51,9 +55,11 @@ h3{
 
 a {
     text-decoration: none !important;
-    color: black !important;
 }
 
 p{
-    text-align: justify;
+    text-align: left;
+}
+.link_index2{
+    color: white !important;
 }
