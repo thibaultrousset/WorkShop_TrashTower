@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300" rel="stylesheet"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <script src="script.js"></script>
     <title>TrashTower</title>
@@ -17,32 +18,56 @@
         <nav></nav>
     </header>
 
-    <section id="home">
-        <div id="h2" class="d-flex align-items-center">
-            <h2  style=" color:rgb(115, 77, 40);">THE NEW EVEREST</h2>
+    <section id="home" class="row m-0">
+        <div id="h2" class="d-flex align-items-start col-4">
+            <h2  class="p-3" style=" color:rgb(115, 77, 40);">THE NEW EVEREST</h2>
         </div>
-        <div class="action_call d-flex align-items-end">
-            <button type="button" class="btn" style=" background-color:rgb(139, 195, 74); color: aliceblue; ;border-radius: 20px;" onclick="self.location.href='index2.html'">PASSER AU 0 DECHET</button>
+        <div class="p-3 action_call d-flex align-items-end col-7 justify-content-end">
+            <button type="button" class="btn " style=" background-color:rgb(139, 195, 74); color: white; ;border-radius: 20px; font-weight: bolder; float:right" onclick="self.location.href='index2.html'">PASSER AU 0 DECHET</button>
         </div>
     </section>
 
-    <section class="col-6 mx-auto">
-        <div class="p-5">
-            <h3>TRASH MOUNTAIN</h3>
-            <p style="text-align: justify">Trash mountain est un projet proposé par une association de recyclage, qui est en collaboration avec la mairie de Marseille. 
-                Mx est l’artiste qui à crée la structure qui est à base de carton recyclé.
-                Le but de cette oeuvre est de choqué la population Marseillaise, pour les faire réagir et les pousser à se mettre un Zéro déchets.
+    <section class="" style = "background-color:#f8f9fa">
+        <div class="row col-11 col-md-6 mx-auto py-md-5">
+            <h3 class="mx-auto">TRASH MOUNTAIN</h3>
+            <p>Trash mountain est un projet proposé par une association de recyclage, qui est en collaboration avec la mairie de Marseille. 
+                C'est une oeuvre de l’artiste Mx. Il à décidé de crer cette structure uniquement à base de cartons recyclés.
+                Le but de cette oeuvre est de choquer la population Marseillaise. Il souhaitait les faire réaliser la quantité de dechets produit chaque jour dans notre ville.Le but étant ensuite de les faire réagir et les pousser à se mettre un Zéro déchets.
             </p>
         </div>
     </section>
 
-    <section>
-        <img src="" alt="">
-        <p>Ce projet a été réalisé dans le cadre de notre formation à Passerelle Numérique, nous avons fait un workshop de 1 semaine tenu par deux représentants de Enactus le but de ce workshop était de réaliser un site à partir d’une problématique, en suivant des étapes. 
-            Ci-dessous voici les étapes de notre projet et comment nous avons répondu à la problématique des déchets de la ville de Marseille.
-        </p>
+    <section class="">
+            <h3 >Les déchets à Marseille</h3>
+        <div class="row col-11 mx-auto py-md-5">
+            <img class="col-md-5"src="images/marseille_déchet.jpg" alt="dechets_marseille">
+            <p class="p-0 col-md-7">Alors que le Contrat Local de Propreté  de MPM est en cours de déploiement, Monique Cordier, élue à Communauté Urbaine de Marseille, chargée de la Propreté et de la Gestion des déchets, affirmait récemment dans La Marseillaise (03/10/2014) : « On ne pourra pas résoudre le problème si on continue à produire autant de déchets, il faut penser réduction et tri dès l’achat du produit« . Une affirmation martelée quelques jours plus tard dans La Provence (12/10/2014), lors d’une réunion de CIQ : « La propreté de Marseille passe par la réduction de la quantité de déchets, San Francisco se donne pour objectif en 2020 zéro déchet, pourquoi pas nous ? »
+            </p>
+        </div>
+        
     </section>
 
+    <section  style = "background-color:rgb(231, 230, 230)">
+
+    </section>
+
+    <section class="p-3 col-12 col-sm-7 mx-auto">
+        <div class="py-md-5">
+            <h3 class=""> ILS L'ONT FAIT!</h3>
+            <div class="videoWrapper object iframe mx-auto">
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/fpXm2lK6FzU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div> 
+        </div>
+    </section>
+
+    <section>
+        <div class="col-12">
+            <button type="button" class="btn  d-block mx-auto" style=" background-color:rgb(139, 195, 74); color: white; ;border-radius: 20px; font-weight: bolder;" onclick="self.location.href='index2.html'">PASSER AU 0 DECHET</button>
+            <div id="value">100</div>
+        </div>
+
+    </section>
+            
     <footer></footer>
 </body>
 </html>
