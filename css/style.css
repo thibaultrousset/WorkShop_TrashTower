@@ -14,11 +14,10 @@ header{
 }
 footer{
     background-color: rgb(115, 77, 40);
-    padding: 2%;
     text-align: center;
 }
 #home{
-    background-image: url(/home/rousset/Bureau/WorkShop_TrashTower/WorkShop_TrashTower/images/montagne_déchet.jpg);
+    background-image: url(../images/montagneDechet.jpg);
     background-repeat: no-repeat;
     background-position-x: 50%;
     background-size: cover;
@@ -54,6 +53,9 @@ a {
 
 p{
     text-align: left;
+}
+
+.p_index1{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     word-spacing: 0.2em;
@@ -78,3 +80,7 @@ p{
 	height: 100%;
 }
 
+.social-img {
+    width: 67px;
+    height: 67px;
+}
