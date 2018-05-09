@@ -12,6 +12,15 @@
     <script src="script.js"></script>
     <script src="dist/Chart.bundle.js"></script>
     <script src="utils.js"></script>
+    <script> var lastTouchEnd = 0;
+document.addEventListener('touchend', function (event) {
+  var now = (new Date()).getTime();
+  if (now - lastTouchEnd <= 300) {
+    event.preventDefault();
+  }
+  lastTouchEnd = now;
+}, false);
+    </script>
     
     <title>TrashTower</title>
 </head>
